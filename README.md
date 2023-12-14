@@ -23,6 +23,8 @@ You will need Node.js installed on your device.
 
 Open repo in VS Code and use 'node index.js' command to run the propmts, after the prompts are answered, SVG file with logo based on your options will be created.
 
+[Link to the instructional video](https://drive.google.com/file/d/13xeAmKrRQhJ5TyTfiFOkGIqN-YT4GJs-/view?usp=drive_link)
+
 ## License
 
 This application is covered under [MIT License](https://opensource.org/licenses/MIT).
