@@ -6,8 +6,8 @@ inquirer.registerPrompt('maxlength-input', MaxLengthInputPrompt);
 // Imported fs to be able to write and read files.
 const fs = require('fs');
 
-// Imported onject constructors from shapes.js file.
-const { Circle, Triangle, Square } = require('./shapes/shapes.js');
+// Imported object constructors from shapes.js file.
+const { Circle, Triangle, Square } = require('./lib/shapes.js');
 
 
 function init() {
