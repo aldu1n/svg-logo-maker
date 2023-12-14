@@ -47,21 +47,21 @@ inquirer
     if (answers.shape === 'Circle') {
         const newCircle = new Circle(answers.text, answers.textcolor, answers.shapecolor);
         fs.writeFile('./examples/logo.svg', newCircle.generateSVG(), (err) =>
-        err ? console.error(err) : console.log('Success!')
+        err ? console.error(err) : console.log('Generated logo.svg')
         );
     }
 
     else if (answers.shape === 'Triangle') {
         const newTriangle = new Triangle(answers.text, answers.textcolor, answers.shapecolor);
         fs.writeFile('./examples/logo.svg', newTriangle.generateSVG(), (err) =>
-        err ? console.error(err) : console.log('Success!')
+        err ? console.error(err) : console.log('Generated logo.svg')
         );
     }
 
     else if (answers.shape === 'Square') {
         const newSquare = new Square(answers.text, answers.textcolor, answers.shapecolor);
         fs.writeFile('./examples/logo.svg', newSquare.generateSVG(), (err) =>
-        err ? console.error(err) : console.log('Success!')
+        err ? console.error(err) : console.log('Generated logo.svg')
         );
     }
   })
